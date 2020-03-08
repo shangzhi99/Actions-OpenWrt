@@ -4,6 +4,7 @@
 # Lisence: MIT
 # Author: P3TERX
 # Blog: https://p3terx.com
+# x86-64 20200308
 #=================================================
 
 name: Build OpenWrt
@@ -18,8 +19,8 @@ on:
       - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#    types: started
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
